@@ -1,0 +1,10 @@
+* {
+  background-color: #CEDEFF;
+  font-family: Poppins;
+}
+
+body {
+    grid-template-columns: 1fr 100px 100px 1fr;
+    grid-template-rows: 1fr 100px 100px 1fr;
+}
+
