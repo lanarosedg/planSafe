@@ -12,7 +12,7 @@ function App() {
       <Logo/>
       <User/>
       <CurrentLocation/>
-      {/* <Search/> */}
+      <Search/>
     </div>
   )
 }

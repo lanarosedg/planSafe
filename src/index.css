@@ -1,12 +1,13 @@
 * {
   background-color: #CEDEFF;
   font-family: Poppins;
+  color: #0C0950
 }
 
 .parentContainer {
   display: grid;
   grid-template-columns: 25px 1fr 1fr 25px;
-  grid-template-rows: 20px 100px 50px 100px 100px 100px 140px;
+  grid-template-rows: 20px 100px 50px 100px 50px 100px 1fr;
 }
 
 /*     */
@@ -45,4 +46,46 @@
   display: grid;
   grid-area: 4 / 2 / 5 / 4;
   place-items: center;
+  line-height: 0;
 }
+
+.location {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.degrees {
+  font-size: 60px;
+}
+
+/*          */
+/* Search   */
+/*          */
+
+.searchContainer {
+  display: grid;
+  grid-area: 6 / 2 / 7 / 4;
+  place-items: center;
+  line-height: 0;
+}
+
+.searchInput {
+  width: 270px;
+  border-style: none;
+  border-bottom: #4E71FF solid 1px;
+  text-align: center;
+}
+
+.searchInput::placeholder {
+  color: #0C0950;
+}
+
+.searchButton {
+  width: 140px;
+  height: 43px;
+  border-radius: 20px;
+  border-style: none;
+  color: #EAEFEF;
+  background-color: #4E71FF;
+}
+
