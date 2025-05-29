@@ -89,3 +89,17 @@
   background-color: #4E71FF;
 }
 
+/*           */
+/* Weather   */
+/*           */
+
+.weatherContainer {
+  display: grid;
+  grid-area: 7 / 2 / 8 / 4;   
+}
+
+.weatherPhoto {
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}

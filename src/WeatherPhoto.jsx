@@ -1,7 +1,10 @@
+import ExtremeHeat from './assets/extremeHeat.png';
 function WeatherPhoto() {
     return (
         <>
-            <img src="" alt="" />
+            <div className="weatherContainer">
+                <img class="weatherPhoto" src={ExtremeHeat} alt="" />
+            </div>
         </>
     )
 }

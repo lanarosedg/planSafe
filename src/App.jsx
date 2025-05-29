@@ -4,6 +4,7 @@ import Logo from './Logo'
 import User from './User'
 import CurrentLocation from './CurrentLocation'
 import Search from './Search'
+import WeatherPhoto from './WeatherPhoto'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <User/>
       <CurrentLocation/>
       <Search/>
+      <WeatherPhoto/>
     </div>
   )
 }
