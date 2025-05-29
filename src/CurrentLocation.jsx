@@ -1,8 +1,8 @@
 function CurrentLocation() {
     return (
         <>
-            <div className="CurrentLocationContainer">
-                <p className="Location">
+            <div className="currentLocationContainer">
+                <p className="location">
                     Current Location
                 </p>
                 <p className="degrees">

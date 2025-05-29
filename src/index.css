@@ -3,8 +3,46 @@
   font-family: Poppins;
 }
 
-body {
-    grid-template-columns: 1fr 100px 100px 1fr;
-    grid-template-rows: 1fr 100px 100px 1fr;
+.parentContainer {
+  display: grid;
+  grid-template-columns: 25px 1fr 1fr 25px;
+  grid-template-rows: 20px 100px 50px 100px 100px 100px 140px;
 }
 
+/*     */
+/* Top */
+/*     */
+
+.logoContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;  
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.user {
+  display: grid;
+  grid-area: 2 / 3 / 3 / 4;
+  align-items: center;
+  justify-content: end;
+}
+
+.userIcon {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*          */
+/* Location */
+/*          */
+
+.currentLocationContainer {
+  display: grid;
+  grid-area: 4 / 2 / 5 / 4;
+  place-items: center;
+}
