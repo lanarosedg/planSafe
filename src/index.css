@@ -7,7 +7,7 @@
 .parentContainer {
   display: grid;
   grid-template-columns: 25px 1fr 1fr 25px;
-  grid-template-rows: 20px 100px 50px 100px 50px 100px 1fr;
+  grid-template-rows: 10px 100px 20px 100px 50px 100px 20px 1fr;
 }
 
 /*     */
@@ -95,11 +95,11 @@
 
 .weatherContainer {
   display: grid;
-  grid-area: 7 / 2 / 8 / 4;   
+  grid-area: 8 / 2 / 9 / 4;   
 }
 
 .weatherPhoto {
-  height: 240px;
+  height: 270px;
   margin-left: auto;
   margin-right: auto;
 }
