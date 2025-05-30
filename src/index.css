@@ -8,6 +8,8 @@
   display: grid;
   grid-template-columns: 25px 1fr 1fr 25px;
   grid-template-rows: 10px 100px 20px 100px 50px 100px 20px 1fr;
+  margin: 0;
+  padding: 0;
 }
 
 /*     */
@@ -99,7 +101,12 @@
 }
 
 .weatherPhoto {
-  height: 270px;
+  width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 1836px) {
+  
 }

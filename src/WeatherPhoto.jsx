@@ -1,4 +1,4 @@
-import ExtremeHeat from './assets/extremeHeat.png';
+import ExtremeHeat from './assets/extreme-heat.png';
 function WeatherPhoto() {
     return (
         <>
