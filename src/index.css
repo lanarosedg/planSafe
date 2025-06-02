@@ -7,7 +7,7 @@
 .parentContainer {
   display: grid;
   grid-template-columns: 25px 1fr 1fr 25px;
-  grid-template-rows: 10px 100px 20px 100px 50px 100px 20px 1fr;
+  grid-template-rows: 110px 20px 250px 20px 1fr;
   margin: 0;
   padding: 0;
 }
@@ -18,7 +18,7 @@
 
 .logoContainer {
   display: grid;
-  grid-area: 2 / 2 / 3 / 3;  
+  grid-area: 1 / 2 / 2 / 3;  
   align-items: center;
 }
 
@@ -29,7 +29,7 @@
 
 .user {
   display: grid;
-  grid-area: 2 / 3 / 3 / 4;
+  grid-area: 1 / 3 / 2 / 4;
   align-items: center;
   justify-content: end;
 }
@@ -45,8 +45,6 @@
 /*          */
 
 .currentLocationContainer {
-  display: grid;
-  grid-area: 4 / 2 / 5 / 4;
   place-items: center;
   line-height: 0;
 }
@@ -66,7 +64,7 @@
 
 .searchContainer {
   display: grid;
-  grid-area: 6 / 2 / 7 / 4;
+  grid-area: 3 / 2 / 4 / 4;
   place-items: center;
   line-height: 0;
 }
@@ -105,8 +103,4 @@
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media only screen and (max-width: 1836px) {
-  
 }
